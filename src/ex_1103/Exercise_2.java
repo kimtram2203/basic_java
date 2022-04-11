@@ -11,15 +11,15 @@ public class Exercise_2 {
 		
 		// exercise 1
 		int[] arrayInput = inputArray();
-		System.out.print(averageOfArray(arrayInput));
+		System.out.println(averageOfArray(arrayInput));
 		
 		// exercise 2
 		int[] arrayRandom = generateRandomArray();
-		System.out.print(averageOfArray(arrayRandom));
+		System.out.println(averageOfArray(arrayRandom));
 		
 		// exercise 3
 		double[] doubleArrayRandom = generateDoubleArray(arrayRandom.length);
-		System.out.print(averageOfTwoArray(arrayRandom, doubleArrayRandom));
+		System.out.println(averageOfTwoArray(arrayRandom, doubleArrayRandom));
 		
 		// exercise 4 
 		showArray(arrayRandom, true);
