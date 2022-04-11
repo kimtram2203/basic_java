@@ -16,7 +16,7 @@ public class Exercise1 {
 		System.out.print("input b: ");
 		b = input.nextInt();
 		
-		System.out.print(a == 0 ? "Phuong trinh co vo so nghiem" : ("Phuong trinh co nghiem" + (-b/a)));
+		System.out.print(a == 0 ? "Phuong trinh vo nghiem" : ("Phuong trinh co nghiem" + (-b/a)));
 	}
 
 }
